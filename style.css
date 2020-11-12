@@ -1,0 +1,139 @@
+
+
+
+
+
+/* Reiniciar estilos, quitar el margen */
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+header{
+
+
+  height: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+
+.container{
+
+    width: 92%;
+    margin: 0 auto;
+
+}
+
+
+
+
+nav{
+
+    width: 70%;
+    text-align: center;
+
+}
+
+
+
+.menu-secundario{
+
+    width: 15%;
+    padding: 10px;
+
+}
+
+
+
+
+.menu-secundario > * {
+
+    padding: 15px;
+
+}
+
+
+
+
+.menu-secundario > button:hover {
+
+    background-color: rgb(124, 199, 62);
+    transition: 0.5s ease;
+}
+
+
+
+
+.menu-secundario > a {
+
+    color: rgb(15, 87, 87);
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+
+
+#logo{
+
+    width: 15%;
+
+}
+
+
+
+
+nav > ul > li {
+
+    display: inline-block;
+    text-align: center;
+    margin-right: 45px; 
+    font-family: sans-serif;
+    font-size: 16px;
+    
+
+}
+
+
+
+nav > ul > li > a {
+
+    list-style: none;
+    text-decoration: none;
+    color: rgb(13, 109, 80);
+
+}
+
+
+
+
+.boton_uno {
+
+    font-family: sans-serif;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(12, 87, 87);
+    padding: 15px;
+    border-color: transparent;
+    font-weight: 800;
+
+}
